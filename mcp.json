@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "fieldcamp": {
+      "type": "streamable-http",
+      "url": "https://mcp.fieldcamp.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FIELDCAMP_API_TOKEN}"
+      }
+    }
+  }
+}

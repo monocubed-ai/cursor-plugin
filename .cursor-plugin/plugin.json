@@ -1,0 +1,38 @@
+{
+  "name": "fieldcamp",
+  "description": "Run your field service operation from the agent: today's schedule, who is free, booking jobs with priced line items, chasing unpaid invoices, client history and parts stock — backed by the FieldCamp MCP server.",
+  "version": "1.0.0",
+  "author": {
+    "name": "FieldCamp",
+    "email": "support@fieldcamp.ai"
+  },
+  "homepage": "https://fieldcamp.ai",
+  "repository": "https://github.com/fieldcampai/cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "field-service",
+    "fsm",
+    "dispatch",
+    "scheduling",
+    "jobs",
+    "invoicing",
+    "crm",
+    "hvac",
+    "plumbing",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg",
+  "skills": "skills",
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "required": ["FIELDCAMP_API_TOKEN"],
+    "properties": {
+      "FIELDCAMP_API_TOKEN": {
+        "type": "string",
+        "title": "FieldCamp API token",
+        "description": "Create one in FieldCamp under Settings → API Keys. It starts with fc_live_. The token carries your own FieldCamp permissions, so the agent can only see and change what you already can."
+      }
+    }
+  }
+}

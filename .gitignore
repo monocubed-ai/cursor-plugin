@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# Node / tooling (if ever added)
+node_modules/
+*.log
+
+# Never commit secrets
+.env
+.env.*
